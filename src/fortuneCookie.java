@@ -13,7 +13,7 @@ public class fortuneCookie {
           String[] sayings = allSayings.split("\n");
 
         System.out.println("How many sayings would you like to read? ");
-
+        //
         var userChoice = reader.nextInt();
         for (int i=userChoice; i>0;i--){
             var randSaying = randGen.nextInt(20);
